@@ -1,0 +1,49 @@
+
+body {
+	margin:0 80px;
+}
+header {
+	background-color:rgb(112, 205, 108);
+	height:75px;
+}
+nav {
+	background-color:rgb(246, 178, 46);
+	height:50px;
+}
+main {
+	background-color:rgb(19, 124, 160);
+	width:60%;
+	height:250px;
+	float:left;
+}
+.aside {
+	background-color:rgb(238, 72, 60);
+	width:40%;
+	height:250px;
+	float:left;
+}
+.promo {
+	background-color:rgb(169, 179, 188);
+	float:left;
+	width:25%;
+	height:175px;
+	border:1px solid #000;
+	box-sizing:border-box;
+}
+footer {
+	color:#fff;
+	background-color:rgb(42, 62, 79);
+	height:50px;
+	clear:both;
+}
+@media screen and (max-width:480px) {
+	.promo {
+	background-color:rgb(158, 53, 197);
+	float:left;
+	width:50%;
+	height:175px;
+	border:1px solid #000;
+	box-sizing:border-box;
+	}
+	
+}
